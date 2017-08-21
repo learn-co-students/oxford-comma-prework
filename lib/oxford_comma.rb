@@ -21,5 +21,6 @@ def oxford_comma(array)
   else
     last_elt = array[-1]
     array[-1] = "and #{last_elt}"
-    return array.join(, )
+    return array.join(", ")
+  end
 end
