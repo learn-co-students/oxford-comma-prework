@@ -10,7 +10,6 @@ def oxford_comma(array)
         new_array << "and #{el}"
       else
         new_array << el
-
       end
     end
     new_array.join(", ")
