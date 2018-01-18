@@ -8,7 +8,7 @@ def oxford_comma(array)
 
     novo = array[0..array.size-2].join(", ")
 
-    novo = novo + ", and #{array[array.size-1]}"
+    novo = novo << ", and #{array[array.size-1]}"
     novo
   end
 end
