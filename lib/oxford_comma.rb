@@ -16,7 +16,7 @@ n = array.length.to_int
 n -= 1
 z = array[0...n]
 z.join(", ")
-v = ["and ", array[-1]].join
+v = ["and ", array[-1], "."].join
 z << v
 return z.join(", ")
 end
