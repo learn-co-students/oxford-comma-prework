@@ -3,8 +3,9 @@ def oxford_comma(array)
 if array.length == 1
   # if there is only 1 element in the array
 
-  return array
-# then just return the array with no modifications
+  return array.join()
+# then just return the array as just as a string 
+
 elsif array.length == 2
 # if the array has two elements
   return array.join(" and ")
