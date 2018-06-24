@@ -5,7 +5,7 @@ while index < array.length
 if array[index] != array.last
   string +=array[index]+", "
 else
-  string += "and #{array[index]"
+  string += "and #{array[index]}"
 index+=1
 end
 string
