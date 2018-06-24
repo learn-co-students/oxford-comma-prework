@@ -1,4 +1,4 @@
 def oxford_comma(array)
-array.join(", ")
-array[-2] 
+string = array.join(", ")
+string[-2] 
 end
