@@ -10,7 +10,7 @@ def oxford_comma(array)
     new_array<<array[i]+", "
     i += 1
     end
-    
+     "#{new_array.join}and #{array[-1]}"
   end
 end
   
