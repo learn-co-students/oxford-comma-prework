@@ -1,3 +1,21 @@
 def oxford_comma(array)
-
+  if array.length == 1 
+    return array.join
+   
+  elsif array.length == 2 
+    return array.join(" and ")
+  else
+    string = ""
+    array.each_with_index{ |word, index|
+      
+      if index == (array.length-1)
+        string += "and " + word
+      
+      else 
+        string += word + ", "
+      end 
+    }
+    
+    return string
+  end 
 end
