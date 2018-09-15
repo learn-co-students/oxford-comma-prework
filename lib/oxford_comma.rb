@@ -12,3 +12,9 @@ def oxford_comma(array)
     return array.join(", ") + last_element
   end
 end
+
+
+# alternative for else statement
+# last_element = "and #{array.pop}"
+# array << last_element
+# return array.join(", ")
