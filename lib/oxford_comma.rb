@@ -1,9 +1,12 @@
 require 'pry'
 
 def oxford_comma(array)
- if array.length == 2 
-  puts array[0].join + " and " + array
 
+ newString = "" 
+ 
+ if array.length == 2 
+  array.split(" and ")
+  
  elsif array.length == 3
   puts array[0] + ", "
   
@@ -13,4 +16,5 @@ def oxford_comma(array)
  else
    array.join
  end
+ puts newString
 end
