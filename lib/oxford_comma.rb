@@ -12,12 +12,11 @@ def oxford_comma(array)
  elsif array.length == 3
  
 # newString is "kiwi, durian, starfruit"..... it needs an "and" before last item 
-  newString << array.join(", ")
-  
+  newString = array[0] + ", " + array[1] +  ", " + "and " + array[2]
   
 # this is a variation on the approach for an array of 3  
  elsif array.length > 3
-  # what goes here? 
+  # something will go
 
 #if the array does not meet any of the criteria before, it is an array of one and can be converted directly to a string   
  else
