@@ -6,7 +6,7 @@ def oxford_comma(array)
  
 # if array has two items, join them with an and 
  if array.length == 2 
-  array.join(" and ")
+  newString = array.join(" and ")
 
 #if an array has three items, add commas to the end of the first two items and a comma and and to the third   
  elsif array.length == 3
@@ -22,9 +22,11 @@ def oxford_comma(array)
    newString += array[counter] + ", "
    counter += 1 
   end
-
+  newString << "and " + array[array_length] 
+  
 #if the array does not meet any of the criteria before, it is an array of one and can be converted directly to a string   
  else
-   array.join
+   newString = array.join
  end
+ newString
 end
