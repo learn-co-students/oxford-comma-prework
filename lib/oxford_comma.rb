@@ -10,9 +10,10 @@ def oxford_comma(array)
 
 #if an array has three items, add commas to the end of the first two items and a comma and and to the third   
  elsif array.length == 3
-  
+ 
+# newString is "kiwi, durian, starfruit"..... it needs an "and" before last item 
   newString << array.join(", ")
-  binding.pry 
+  
   
 # this is a variation on the approach for an array of 3  
  elsif array.length > 3
