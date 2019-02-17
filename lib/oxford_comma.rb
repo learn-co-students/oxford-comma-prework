@@ -22,7 +22,7 @@ def oxford_comma(array)
    newString += array[counter] + ", "
    counter += 1 
   end
-  newString << "and " + array[array_length] 
+  newString << "and " + array[array_length - 1] 
   
 #if the array does not meet any of the criteria before, it is an array of one and can be converted directly to a string   
  else
