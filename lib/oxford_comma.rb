@@ -6,5 +6,12 @@ def oxford_comma(array)
  end
 end
 
-if array.length == 2 
+# if array.length == 2 
+#   puts array[0] + " and " + array
+
+# elsif array.length == 3
+#   puts array[0] + ", "
   
+# else
+# asfkjhsk.djgb
+# end
