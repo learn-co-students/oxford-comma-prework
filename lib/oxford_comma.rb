@@ -16,7 +16,12 @@ def oxford_comma(array)
   
 # this is a variation on the approach for an array of 3  
  elsif array.length > 3
-  # something will go
+  array_length = array.length 
+  counter = 0 
+  while counter < array_length - 1 
+   newString += array[counter] + ", "
+   counter += 1 
+  end
 
 #if the array does not meet any of the criteria before, it is an array of one and can be converted directly to a string   
  else
